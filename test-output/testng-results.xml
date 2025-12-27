@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="29" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-27T17:39:38 IST" name="Suite" finished-at="2025-12-27T17:40:42 IST" duration-ms="63320">
+    <groups>
+    </groups>
+    <test started-at="2025-12-27T17:39:38 IST" name="Test" finished-at="2025-12-27T17:40:42 IST" duration-ms="63320">
+      <class name="testclass.BookingTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:39:52 IST" name="setup" finished-at="2025-12-27T17:39:59 IST" duration-ms="7031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="title()[pri:1, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:39:59 IST" name="title" finished-at="2025-12-27T17:39:59 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:39:59 IST" name="objmethod" finished-at="2025-12-27T17:39:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="bkng()[pri:2, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:39:59 IST" name="bkng" finished-at="2025-12-27T17:40:00 IST" duration-ms="258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bkng -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:39:59 IST" name="objmethod" finished-at="2025-12-27T17:39:59 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:40:00 IST" name="objmethod" finished-at="2025-12-27T17:40:00 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="Check()[pri:3, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:40:00 IST" name="Check" finished-at="2025-12-27T17:40:01 IST" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:40:01 IST" name="objmethod" finished-at="2025-12-27T17:40:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="dropdown1()[pri:4, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:40:01 IST" name="dropdown1" finished-at="2025-12-27T17:40:01 IST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown1 -->
+        <test-method signature="dropdown2()[pri:5, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:40:01 IST" name="dropdown2" finished-at="2025-12-27T17:40:02 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown2 -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:40:01 IST" name="objmethod" finished-at="2025-12-27T17:40:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:40:02 IST" name="objmethod" finished-at="2025-12-27T17:40:02 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="dropdown3()[pri:6, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:40:02 IST" name="dropdown3" finished-at="2025-12-27T17:40:02 IST" duration-ms="417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown3 -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:40:02 IST" name="objmethod" finished-at="2025-12-27T17:40:02 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="date()[pri:7, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:40:02 IST" name="date" finished-at="2025-12-27T17:40:05 IST" duration-ms="3235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:40:05 IST" name="objmethod" finished-at="2025-12-27T17:40:05 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="date1()[pri:8, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:40:05 IST" name="date1" finished-at="2025-12-27T17:40:08 IST" duration-ms="2085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date1 -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:40:08 IST" name="objmethod" finished-at="2025-12-27T17:40:08 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="date2()[pri:9, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:40:08 IST" name="date2" finished-at="2025-12-27T17:40:10 IST" duration-ms="2752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date2 -->
+        <test-method signature="search()[pri:10, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:40:10 IST" name="search" finished-at="2025-12-27T17:40:11 IST" duration-ms="342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.BookingTest@d35dea7]" started-at="2025-12-27T17:40:10 IST" name="objmethod" finished-at="2025-12-27T17:40:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+      </class> <!-- testclass.BookingTest -->
+      <class name="testclass.ConfirmationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:11 IST" name="setup" finished-at="2025-12-27T17:40:20 IST" duration-ms="9726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:20 IST" name="objmethod" finished-at="2025-12-27T17:40:20 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="title()[pri:1, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:20 IST" name="title" finished-at="2025-12-27T17:40:20 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:21 IST" name="objmethod" finished-at="2025-12-27T17:40:21 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="bkng()[pri:2, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:21 IST" name="bkng" finished-at="2025-12-27T17:40:21 IST" duration-ms="305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bkng -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:21 IST" name="objmethod" finished-at="2025-12-27T17:40:21 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="Check()[pri:3, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:21 IST" name="Check" finished-at="2025-12-27T17:40:22 IST" duration-ms="1340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:22 IST" name="objmethod" finished-at="2025-12-27T17:40:22 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="dropdown1()[pri:4, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:22 IST" name="dropdown1" finished-at="2025-12-27T17:40:23 IST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown1 -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:23 IST" name="objmethod" finished-at="2025-12-27T17:40:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="dropdown2()[pri:5, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:23 IST" name="dropdown2" finished-at="2025-12-27T17:40:23 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown2 -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:23 IST" name="objmethod" finished-at="2025-12-27T17:40:23 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="dropdown3()[pri:6, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:23 IST" name="dropdown3" finished-at="2025-12-27T17:40:24 IST" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown3 -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:24 IST" name="objmethod" finished-at="2025-12-27T17:40:24 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="date()[pri:7, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:24 IST" name="date" finished-at="2025-12-27T17:40:27 IST" duration-ms="3087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:27 IST" name="objmethod" finished-at="2025-12-27T17:40:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="date1()[pri:8, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:27 IST" name="date1" finished-at="2025-12-27T17:40:28 IST" duration-ms="1583" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date1 -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:28 IST" name="objmethod" finished-at="2025-12-27T17:40:28 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="date2()[pri:9, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:28 IST" name="date2" finished-at="2025-12-27T17:40:31 IST" duration-ms="2770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- date2 -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:31 IST" name="objmethod" finished-at="2025-12-27T17:40:31 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="search()[pri:10, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:31 IST" name="search" finished-at="2025-12-27T17:40:32 IST" duration-ms="340" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:32 IST" name="objmethod" finished-at="2025-12-27T17:40:32 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="screenshot()[pri:11, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:32 IST" name="screenshot" finished-at="2025-12-27T17:40:35 IST" duration-ms="3480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method signature="booking()[pri:12, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:35 IST" name="booking" finished-at="2025-12-27T17:40:37 IST" duration-ms="1850" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- booking -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:35 IST" name="objmethod" finished-at="2025-12-27T17:40:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="checkboxalert()[pri:13, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:37 IST" name="checkboxalert" finished-at="2025-12-27T17:40:37 IST" duration-ms="414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkboxalert -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:37 IST" name="objmethod" finished-at="2025-12-27T17:40:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:37 IST" name="objmethod" finished-at="2025-12-27T17:40:37 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="alert()[pri:14, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:37 IST" name="alert" finished-at="2025-12-27T17:40:38 IST" duration-ms="296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alert -->
+        <test-method signature="radio()[pri:15, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:38 IST" name="radio" finished-at="2025-12-27T17:40:38 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- radio -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:38 IST" name="objmethod" finished-at="2025-12-27T17:40:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:38 IST" name="objmethod" finished-at="2025-12-27T17:40:38 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="screenshot2()[pri:16, instance:testclass.ConfirmationTest@7770f470]" started-at="2025-12-27T17:40:38 IST" name="screenshot2" finished-at="2025-12-27T17:40:42 IST" duration-ms="3773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshot2 -->
+      </class> <!-- testclass.ConfirmationTest -->
+      <class name="testclass.HomepageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testclass.HomepageTest@b2c9a9c]" started-at="2025-12-27T17:39:39 IST" name="setup" finished-at="2025-12-27T17:39:50 IST" duration-ms="11505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.HomepageTest@b2c9a9c]" started-at="2025-12-27T17:39:50 IST" name="objmethod" finished-at="2025-12-27T17:39:50 IST" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="title()[pri:1, instance:testclass.HomepageTest@b2c9a9c]" started-at="2025-12-27T17:39:50 IST" name="title" finished-at="2025-12-27T17:39:50 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.HomepageTest@b2c9a9c]" started-at="2025-12-27T17:39:50 IST" name="objmethod" finished-at="2025-12-27T17:39:50 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+        <test-method signature="bkng()[pri:2, instance:testclass.HomepageTest@b2c9a9c]" started-at="2025-12-27T17:39:50 IST" name="bkng" finished-at="2025-12-27T17:39:51 IST" duration-ms="277" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bkng -->
+        <test-method signature="Check()[pri:3, instance:testclass.HomepageTest@b2c9a9c]" started-at="2025-12-27T17:39:51 IST" name="Check" finished-at="2025-12-27T17:39:52 IST" duration-ms="1703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Check -->
+        <test-method is-config="true" signature="objmethod()[pri:0, instance:testclass.HomepageTest@b2c9a9c]" started-at="2025-12-27T17:39:51 IST" name="objmethod" finished-at="2025-12-27T17:39:51 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objmethod -->
+      </class> <!-- testclass.HomepageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

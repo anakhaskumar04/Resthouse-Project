@@ -1,0 +1,225 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Dec 27 17:39:38 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>63 seconds (63320 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testclass.BookingTest.bkng()'><b>bkng</b><br>Test class: testclass.BookingTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.BookingTest@d35dea7</td></tr>
+<tr>
+<td title='testclass.ConfirmationTest.date()'><b>date</b><br>Test class: testclass.ConfirmationTest</td>
+<td></td>
+<td>3</td>
+<td>testclass.ConfirmationTest@7770f470</td></tr>
+<tr>
+<td title='testclass.HomepageTest.bkng()'><b>bkng</b><br>Test class: testclass.HomepageTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.HomepageTest@b2c9a9c</td></tr>
+<tr>
+<td title='testclass.ConfirmationTest.bkng()'><b>bkng</b><br>Test class: testclass.ConfirmationTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.ConfirmationTest@7770f470</td></tr>
+<tr>
+<td title='testclass.ConfirmationTest.dropdown1()'><b>dropdown1</b><br>Test class: testclass.ConfirmationTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.ConfirmationTest@7770f470</td></tr>
+<tr>
+<td title='testclass.ConfirmationTest.dropdown3()'><b>dropdown3</b><br>Test class: testclass.ConfirmationTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.ConfirmationTest@7770f470</td></tr>
+<tr>
+<td title='testclass.ConfirmationTest.screenshot()'><b>screenshot</b><br>Test class: testclass.ConfirmationTest</td>
+<td></td>
+<td>3</td>
+<td>testclass.ConfirmationTest@7770f470</td></tr>
+<tr>
+<td title='testclass.BookingTest.dropdown1()'><b>dropdown1</b><br>Test class: testclass.BookingTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.BookingTest@d35dea7</td></tr>
+<tr>
+<td title='testclass.ConfirmationTest.alert()'><b>alert</b><br>Test class: testclass.ConfirmationTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.ConfirmationTest@7770f470</td></tr>
+<tr>
+<td title='testclass.HomepageTest.title()'><b>title</b><br>Test class: testclass.HomepageTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.HomepageTest@b2c9a9c</td></tr>
+<tr>
+<td title='testclass.BookingTest.date()'><b>date</b><br>Test class: testclass.BookingTest</td>
+<td></td>
+<td>3</td>
+<td>testclass.BookingTest@d35dea7</td></tr>
+<tr>
+<td title='testclass.ConfirmationTest.checkboxalert()'><b>checkboxalert</b><br>Test class: testclass.ConfirmationTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.ConfirmationTest@7770f470</td></tr>
+<tr>
+<td title='testclass.BookingTest.dropdown3()'><b>dropdown3</b><br>Test class: testclass.BookingTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.BookingTest@d35dea7</td></tr>
+<tr>
+<td title='testclass.ConfirmationTest.title()'><b>title</b><br>Test class: testclass.ConfirmationTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.ConfirmationTest@7770f470</td></tr>
+<tr>
+<td title='testclass.ConfirmationTest.date1()'><b>date1</b><br>Test class: testclass.ConfirmationTest</td>
+<td></td>
+<td>1</td>
+<td>testclass.ConfirmationTest@7770f470</td></tr>
+<tr>
+<td title='testclass.BookingTest.date1()'><b>date1</b><br>Test class: testclass.BookingTest</td>
+<td></td>
+<td>2</td>
+<td>testclass.BookingTest@d35dea7</td></tr>
+<tr>
+<td title='testclass.BookingTest.Check()'><b>Check</b><br>Test class: testclass.BookingTest</td>
+<td></td>
+<td>1</td>
+<td>testclass.BookingTest@d35dea7</td></tr>
+<tr>
+<td title='testclass.ConfirmationTest.search()'><b>search</b><br>Test class: testclass.ConfirmationTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.ConfirmationTest@7770f470</td></tr>
+<tr>
+<td title='testclass.ConfirmationTest.radio()'><b>radio</b><br>Test class: testclass.ConfirmationTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.ConfirmationTest@7770f470</td></tr>
+<tr>
+<td title='testclass.BookingTest.date2()'><b>date2</b><br>Test class: testclass.BookingTest</td>
+<td></td>
+<td>2</td>
+<td>testclass.BookingTest@d35dea7</td></tr>
+<tr>
+<td title='testclass.BookingTest.title()'><b>title</b><br>Test class: testclass.BookingTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.BookingTest@d35dea7</td></tr>
+<tr>
+<td title='testclass.ConfirmationTest.Check()'><b>Check</b><br>Test class: testclass.ConfirmationTest</td>
+<td></td>
+<td>1</td>
+<td>testclass.ConfirmationTest@7770f470</td></tr>
+<tr>
+<td title='testclass.BookingTest.dropdown2()'><b>dropdown2</b><br>Test class: testclass.BookingTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.BookingTest@d35dea7</td></tr>
+<tr>
+<td title='testclass.ConfirmationTest.screenshot2()'><b>screenshot2</b><br>Test class: testclass.ConfirmationTest</td>
+<td></td>
+<td>3</td>
+<td>testclass.ConfirmationTest@7770f470</td></tr>
+<tr>
+<td title='testclass.ConfirmationTest.booking()'><b>booking</b><br>Test class: testclass.ConfirmationTest</td>
+<td></td>
+<td>1</td>
+<td>testclass.ConfirmationTest@7770f470</td></tr>
+<tr>
+<td title='testclass.ConfirmationTest.date2()'><b>date2</b><br>Test class: testclass.ConfirmationTest</td>
+<td></td>
+<td>2</td>
+<td>testclass.ConfirmationTest@7770f470</td></tr>
+<tr>
+<td title='testclass.HomepageTest.Check()'><b>Check</b><br>Test class: testclass.HomepageTest</td>
+<td></td>
+<td>1</td>
+<td>testclass.HomepageTest@b2c9a9c</td></tr>
+<tr>
+<td title='testclass.BookingTest.search()'><b>search</b><br>Test class: testclass.BookingTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.BookingTest@d35dea7</td></tr>
+<tr>
+<td title='testclass.ConfirmationTest.dropdown2()'><b>dropdown2</b><br>Test class: testclass.ConfirmationTest</td>
+<td></td>
+<td>0</td>
+<td>testclass.ConfirmationTest@7770f470</td></tr>
+</table><p>
+</body>
+</html>
