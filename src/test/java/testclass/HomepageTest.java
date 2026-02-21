@@ -11,6 +11,7 @@ public class HomepageTest extends Baseclass {
 	public void title(){
 		String Exp="PWD | Rest House Booking - Kerala";
 		String Act=HomePage1.title();
+		System.out.println(Act);	
 		Assert.assertEquals(Act, Exp,"Actual title is"+driver.getTitle());
 	}
 	@Test(priority=2)
@@ -22,5 +23,5 @@ public class HomepageTest extends Baseclass {
 	public void Check() {
 		obj.Check();
 	}
-
+	
 }

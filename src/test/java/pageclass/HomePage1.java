@@ -29,8 +29,7 @@ public class HomePage1  {
 
 	}
 	
-
-@Test
+//@Test
 	public static String title() {
 		return driver.getTitle();
 

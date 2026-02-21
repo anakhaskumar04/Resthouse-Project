@@ -3,7 +3,6 @@ package basepkg;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 
@@ -21,12 +20,11 @@ public class Baseclass {
 @BeforeClass
 	
 	public void setup() {
-		ChromeOptions options=new ChromeOptions();
-		options.addArguments("--incognito");
-		
-		
-		
-		driver=new ChromeDriver(options);
+	 ChromeOptions options = new ChromeOptions();
+     options.addArguments("--ignore-certificate-errors");
+     options.addArguments("--allow-insecure-localhost");
+
+     driver = new ChromeDriver(options);
 		driver.get("https://resthouse.pwd.kerala.gov.in/index");
 		driver.manage().window().maximize();
 	}
@@ -36,7 +34,6 @@ public void objmethod() {
 	bookobj=new BookingPage1(driver);
 	conobj=new ConfirmationPage(driver);
 }
-
 
 	
 }

@@ -60,8 +60,7 @@ public class BookingPage1 extends Baseclass{
 		       date.click();
 		         break;  
 		       }
-		    }
-		        break;
+		    }		        break;
 		        } 
 	    
 		        else{

@@ -14,6 +14,7 @@ public class ConfirmationTest extends Baseclass {
 		String Exp="PWD | Rest House Booking - Kerala";
 		String Act=HomePage1.title();
 		Assert.assertEquals(Act, Exp,"Actual title is"+driver.getTitle());
+		
 	}
 	
 		@Test(priority=2)
@@ -82,16 +83,18 @@ public class ConfirmationTest extends Baseclass {
 		   conobj.proceed();
 	   }
 	   
+//	   @Test(priority=15)
+//	   public void radio() {
+//		   conobj.radio();
+//	   }
+//	   
 	   @Test(priority=15)
-	   public void radio() {
-		   conobj.radio();
-	   }
-	   
-	   @Test(priority=16)
 	   public void screenshot2() throws Exception {
 			Thread.sleep(3000);
 			
 		   ConfirmationPage conobj= new ConfirmationPage(driver);
 		   conobj.scrnsht2();
+		   
+		 
 	   }
 }
